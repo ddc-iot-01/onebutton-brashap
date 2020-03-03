@@ -5,18 +5,19 @@
  * Date: 
  */
 
-#include "OneButton.h"
+#include <OneButton.h>
 
 // Setup OneButton on pin 23
 
 // Create variables buttonState and flash
 
+OneButton button1(23,false);
 
 void setup() {
 
 // Setup Serial Monitor
 // Link oneButton library to functions click1, doubleclick1, longPressStart1
-oneButton button1(23,false);
+
 } 
 
 void loop() {
